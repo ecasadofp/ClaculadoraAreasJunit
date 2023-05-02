@@ -14,4 +14,9 @@ public class Cuadrado implements Figura {
     public double getPerimetro(){
         return 4*lado;
     }
+
+    public double getDiagonal(){
+        double resultado = Math.sqrt(2*Math.pow(lado,2));
+        return resultado;
+    }
 }
