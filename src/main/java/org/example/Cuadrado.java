@@ -1,4 +1,5 @@
 package org.example;
+// Pasado por GitHub Actions
 
 public class Cuadrado implements Figura {
     private double lado;
